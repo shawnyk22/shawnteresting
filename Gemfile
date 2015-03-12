@@ -10,7 +10,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 
 group :development, :test do
-	gem 'sqlite3'
+	gem "sqlite3-ruby", :require => "sqlite3"
 end
 
 group :production do
