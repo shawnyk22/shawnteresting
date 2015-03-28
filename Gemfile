@@ -10,6 +10,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.1.0.rc2' 
+gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'cocaine', '~> 0.5.7'
 
 group :development, :test do
 	gem "sqlite3"
